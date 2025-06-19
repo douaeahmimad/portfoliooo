@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Walid Mazzou</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- Header with Navigation -->
+  <header class="hero">
+    <nav class="navbar" aria-label="Main navigation">
+      <div class="nav-container">
+        <div class="logo-container">
+          <img src="assets/img/LOGO DYALI (1).png" alt="Walid Mazzou Logo" class="logo" />
+        </div>
+        <ul class="nav-links">
+          <li><a href="#projects">Our Work</a></li>
+          <li><a href="#testimonials">Testimonials</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+
+    <!-- Hero Section Content -->
+    <div class="hero-content">
+      <h1 class="center-title">Walid Mazzou</h1>
+      
+      <h2>
+        A creative professional helping brands and professionals elevate their online presence with stunning visuals and impactful video content.
+      </h2>
+
+      <section class="hero-section">
+        <div class="cards">
+          <div class="card">
+            <video src="assets/img/video1.mp4" autoplay loop muted playsinline></video>
+          </div>
+        </div>
+      </section>
+
+      <p>
+        Stop chasing leads with cold emails and DMs. <br>
+        Let your content attract millions of views and clients, without paid ads.
+      </p>
+    </div>
+  </header>
+
+  <!-- Main Content -->
+  <main>
+
+    <!-- Trusted Clients Section -->
+    <section class="trusted">
+      <h2>Trusted by</h2>
+      <div class="logos">
+        <div class="client">
+          <img src="assets/img/client1.jpg" alt="Client 1 Logo" />
+          <p>KHALID BENHADDOUCH</p>
+        </div>
+        <div class="client">
+          <img src="assets/img/client2.jpg" alt="Client 2 Logo" />
+          <p>DR SARAHA MAGDY</p>
+        </div>
+        <div class="client">
+          <img src="assets/img/client3.jpg" alt="Client 3 Logo" />
+          <p>MOHAMED TAFSOUTE</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section class="projects" id="projects">
+      <h2>Our Work</h2>
+      <div class="cards">
+        <div class="card">
+          <video src="assets/img/best one .mp4" controls></video>
+        </div>
+        <div class="card">
+          <video src="assets/img/simo steps.mp4" controls></video>
+        </div>
+      </div>
+    </section>
+
+    <!-- Testimonials Section (New Animated Slider) -->
+    <section class="testimonials" id="testimonials">
+      <h2>What Our Clients Say</h2>
+
+      <div class="testimonial-slider">
+        <div class="testimonial active">
+          <img src="assets/img/client2.jpg" alt="Sara" class="photo" />
+          <div class="message">"Working with walid was a game-changer. Their editing brought our vision to life with precision, creativity, and style. Deadlines were always met, and the final cut exceeded expectations
+"</div>
+          <div class="author">— Dr saraha magdy </div>
+        </div>
+
+        <div class="testimonial">
+          <img src="assets/img/client1.jpg" alt="khalid" class="photo" />
+          <div class="message">"I really like Walid's work. He knows how to treat clients and I'm very satisfied with his services. I will definitely work with him again in the future.
+"</div>
+          <div class="author">— Khalid benhaddouch
+</div>
+        </div>
+
+        <div class="testimonial">
+          <img src="assets/img/client3.jpg" alt="mohamed" class="photo" />
+          <div class="message">"We needed a clean, professional edit for our online course—and walid delivered flawlessly. Easy to work with, fast turnaround, and excellent quality."</div>
+          <div class="author">— Mohamed tafsoute
+</div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer / Contact -->
+  <footer id="contact">
+    <h2>Contact Us</h2>
+
+    <form action="send.php" method="POST" class="contact-form">
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="nom" required />
+
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required />
+
+      <label for="message">Message:</label>
+      <textarea id="message" name="message" rows="5" required></textarea>
+
+      <button type="submit">Send</button>
+    </form>
+
+    <div class="social-links">
+      <a href="https://www.instagram.com/wl3d.99/" aria-label="Instagram" target="_blank" rel="noopener noreferrer">Instagram</a> 
+    </div>
+      <!-- Copyright -->
+  <p>&copy; 2025 Walid - Tous droits réservés.</p>
+</footer>
+  </footer>
+
+</body>
+</html>
